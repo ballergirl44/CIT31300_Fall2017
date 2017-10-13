@@ -16,11 +16,11 @@ class Controller {
 
     function home() {
 
-        $this->user->userID = 'crdillon';
-        $this->user->firstname = 'Rob';
-        $this->user->lastname = 'Dillon';
-        $this->user->email = 'crdillon@iu.edu';
-        $this->user->role = 'admin';
+        $this->user->userID = 'lamspenc';
+        $this->user->firstname = 'Laurie';
+        $this->user->lastname = 'Spencer';
+        $this->user->email = 'lamspenc@umail.iu.edu';
+        $this->user->role = 'student';
 
 
         $data = $this->user->getName();
